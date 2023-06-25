@@ -1,0 +1,94 @@
+
+
+cd: change directory
+
+cd /: ir a la raiz.
+
+ls: list
+
+ls -al :mostrar también archivos ocultos
+
+ls -l :lista todos los archivos
+
+ls -a :muestra los archivos en bloque
+
+clear 
+
+cd .. :regresar a la carpeta anterior
+
+cd (dir): selecciona la carpeta a la que queramos ir
+
+pwd: muestra la ruta donde estamos parados
+
+touch documento.txt :crea un docuemnto vacio de texto plano
+
+mkdir (nombre): crea una carpeta en la ruta especificada
+
+cat :mostrar en consola el contenido de un archivo
+
+history :muestra el historial de comandos de la terminal
+
+para acceder a un comando anterior, se usa !# donde # es el número del comando.
+
+rm documento :eliimina el archivo
+
+
+git init :crear un nuevo control de versiones para la carpeta en cuestión
+
+git add filename.ext :añade el archivo al staging area, antes del commit
+
+git rm --cached filename.ext  :saca el archivo del estado staged, es como deshacer el add
+
+git show filename.ext :muestra el historial de cambios, para salir ESC, luego shift+z+z
+
+git log filename.ext (muestra el historial de commits de un archivo.)
+
+
+
+git reset commit-tag --hard
+
+git reset commit-tag --soft
+
+git checkout commit-tag filename.txt :se trae el archivo especifico, del tag del comit mencionado
+
+git checkout master filename.txt :actualiza el archivo a su versión final nuevamente, la útlima commiteada en el master
+
+git reset --soft :Se borra todo el historial y los registros de Git pero guardamos los cambios que tengamos en Staging, así podemos aplicar las últimas actualizaciones a un nuevo commit.
+git reset --hard :Borra todo.
+
+git reset HEAD  (sacar archivos del área de staging)
+
+git branch nombreRama  
+
+git checkout nombreRama
+
+git merge nombreRama 
+
+git remote add origin url
+
+git remote :muestra si hay un origin
+
+git remote -v :muestra el link asociado
+
+git branch -M main 
+
+git push -u origin main
+
+git remote set-url origin url
+
+git clone url: descarga un repositorio
+
+
+git commit --amend :para remendar un commit 
+
+git grep word :muestra todas las lineas donde aparece la palabra word
+
+git grep -n word :trae todos las veces y lineas donde se uso la palabra
+
+git grep -c word :cuenta cuantas veces aparece la palabra word
+
+git blame -c :muestra quien edito qué, de forma ordenada con el -c
+
+
+
+
